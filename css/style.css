@@ -1,0 +1,42 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-btn:hover {
+  background-color: #ccc;
+}
+header :not(.btn-check)+.btn:active {
+  border-color: transparent !important;
+}
+header .offcanvas .list-group-item-action:hover {
+  background-color: #ccc;
+}
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pagination {
+  /* --bs-pagination-border-color: transparent; */
+  --bs-pagination-hover-bg: #000;
+  /* --bs-pagination-hover-color: #fff; */
+  --bs-pagination-focus-color: #fff;
+  --bs-pagination-focus-bg: #000;
+  --bs-pagination-focus-box-shadow:none;
+  justify-content: center;
+}
+.pagination .page-link {
+  border: none;
+}
+.pagination a:hover {
+  color: #fff !important;
+}
+.pagination a:focus {
+  color: #fff !important;
+}
+.active>.page-link, .page-link.active {
+  /* border-color: transparent !important; */
+  background-color: #000;
+  color: #fff !important;
+}
+footer .card:hover {
+  background-color: #ccc;
+  border-radius: 0;
+}
